@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = Project 1
+title = PDF Generator
 
 # (str) Package name
-package.name = project
+package.name = PdfGenerator
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test

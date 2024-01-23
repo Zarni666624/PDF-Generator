@@ -1,0 +1,21 @@
+Interface:
+    padding: [dp(20), dp(20), dp(20), dp(20)]
+    spacing: (dp(20))
+    orientation: "vertical"
+    BoxLayout:
+        spacing: (dp(10))
+        TextInput:
+            id: textInput1
+            hint_text: "No. Sheets"
+            multiline: False
+        TextInput:
+            id: textInput2
+            hint_text: "No. Digits"
+            multiline: False
+        TextInput:
+            id: textInput3
+            hint_text: "Operation (+, -, x)"
+            multiline: False
+    Button:
+        text: "Create pdf!"
+        on_press: root.pdf()
